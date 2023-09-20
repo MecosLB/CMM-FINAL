@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRAIO</title>
+    <meta name="description" content="PRAIO - Fractional Experts">
+    <link rel="stylesheet" href="/assets/css/sidebar.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body data-barba="wrapper">
+    <!-- Content -->
+    <main id="praio" data-barba="container" data-barba-namespace="praio" style="background-color: white;">
+        <link rel="stylesheet" href="./assets/css/styles.css">
+
+        <!-- Main banner -->
+        <section id="main" class="h-screen bg-main flex items-center justify-center">
+            <picture class="logo overflow-hidden">
+                <source srcset="./assets/img/praio.webp" type="image/webp">
+                <img class="relative" src="./assets/img/praio.png" alt="PRAIO">
+            </picture>
+        </section>
+
+        <!-- Slogan -->
+        <section id="slogan" class="h-screen flex items-center justify-center px-4">
+            <h1 class="uppercase text-center overflow-hidden">
+                Promoviendo el crecimiento fractional del país
+            </h1>
+        </section>
+
+        <!-- Decorator -->
+        <section id="decorator" class="h-screen relative">
+            <!-- Grey scale image -->
+            <picture class="overflow-hidden absolute">
+                <source srcset="./assets/img/decorator-grey.webp" type="image/webp">
+                <img src="./assets/img/decorator-grey.png" alt="">
+            </picture>
+
+            <!-- Colored image -->
+            <div class="absolute color-img paint-animation"></div>
+        </section>
+
+        <!-- Gallery -->
+        <section id="gallery">
+            <div class="bg-img w-full h-screen">
+                <div class="img img-1 h-screen"></div>
+            </div>
+
+            <div class="bg-img w-full h-screen">
+                <div class="img img-2 h-screen"></div>
+            </div>
+
+            <div class="bg-img w-full h-screen">
+                <div class="img img-3 h-screen"></div>
+            </div>
+
+            <div class="bg-img w-full h-screen">
+                <div class="img img-4 h-screen"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Barba -->
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+    <!-- SPA Script -->
+    <script src="/assets/scripts/toggle.js?v=0.1"></script>
+</body>
+
+</html>
